@@ -44,7 +44,15 @@ func main() {
   another_string_slice[0] = "Cake"
   // now the original slice is modified as well...
   // Interesting, guess we are using pointers here behind the scenes
-  fmt.Printf("original_strig_slice: %v", string_slice)
+  fmt.Printf("original_strig_slice: %v\n", string_slice)
 
+
+
+  myArray := [2]int{1, 2}
+  mySliceOfArray := myArray[:]
+  // append seems to make a new slice in memory
+  myAppendedSlice := append(mySliceOfArray, 3, 4, 5)
+  fmt.Println(myArray)
+  fmt.Println(myAppendedSlice)
 
 }
