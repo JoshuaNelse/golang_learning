@@ -40,3 +40,7 @@ func main() {
 	fmt.Println(newPointer.myPointerMethod())
 	fmt.Println(newPointer.myValueMethod())
 }
+
+l: 7.9, w: 5.4, h: 3.33
+
+88.578

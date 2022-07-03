@@ -12,6 +12,15 @@
             "program": "${fileDirname}",
             "env": {},
             "args": []
+        },
+        {
+            "name": "ch1/command_line_args",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}/../gpl_book/chapter 1 (tutorial)/command_line_args",
+            "env": {},
+            "args": []
         }
     ]
 }
